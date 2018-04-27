@@ -1,2 +1,0 @@
-# Portfolio
-Basic Portfolio Page
