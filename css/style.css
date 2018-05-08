@@ -7,3 +7,22 @@
 #grad   {
     width: 50%;
 }
+.list-inline-item:hover   {
+    color: black;    
+}
+#e  {
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    width: 52px;
+    position: relative;
+    right: 14px;
+}
+#e:hover  {
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    width: 52px;
+    right: 14px;
+
+}
