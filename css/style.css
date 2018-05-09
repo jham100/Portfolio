@@ -17,6 +17,7 @@
     width: 52px;
     position: relative;
     right: 14px;
+    top: 3px;
 }
 #e:hover  {
     color: black;
@@ -24,5 +25,5 @@
     font-size: 15px;
     width: 52px;
     right: 14px;
-
+    top: 3px;
 }
