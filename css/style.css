@@ -5,10 +5,13 @@
 
 }
 #grad   {
-    width: 50%;
+    width: 400px;
 }
 .list-inline-item:hover   {
     color: black;    
+}
+.portfolio {
+    padding-top: 200px;
 }
 #e  {
     color: white;
