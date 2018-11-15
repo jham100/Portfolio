@@ -1,0 +1,47 @@
+.tile   {
+    margin: 5px;
+    background-color: white;
+    /* background-color: black;
+    color: white */
+}
+.icon   {
+    font-size: 30px
+}
+.heady  {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'FuturaStd-Bold';
+}
+.head  {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'FuturaStd-Bold';
+}
+body   {
+    font-family: 'FuturaStd-Medium';
+}
+h4  {
+    padding: 5px;
+    font-size: 25px;
+    padding: 10px;
+}
+.navbar-burger  {
+    display: inline;
+    position: static;
+}
+.headings   {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.has-text-centered  {
+    width: 100%;
+}
+#info   {
+    margin-left: 10px;
+    flex: auto;
+}
+.portrait   {
+    max-height: 600px;
+    padding-left: 25px;
+}

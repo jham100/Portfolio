@@ -8,369 +8,172 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>JH</title>
+  <title>JH Portfolio</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Julian Hamilton</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <nav class="navbar box" role="navigation" aria-label="main navigation">
+        <a class="navbar-item is-hidden-touch" href="#">
+                <p class="heady">Julian Hamilton</p>
+        </a>
+        <a class="navbar-item is-hidden-desktop" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-hidden')">
+                <p class="head">JH</p>
+        </a>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+
+
+
+    </div>
+    <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                      Browse Projects
+                    </a>
+                
+                    <div class="navbar-dropdown">
+                      <a class="navbar-item" target="_blank" href="#lilypad">
+                        Lilypad Rentals
+                      </a>
+                      <a class="navbar-item" target="_blank" href="#womxn">
+                        Womxn Festival
+                      </a>
+                     <a class="navbar-item" href="#burnrate">
+                        Burnrate
+                      </a>
+                      <a class="navbar-item" href="#bitbuzz">
+                        BitBuzz
+                          </a>
+                    </div>
+                </div>
+            <a class="navbar-item" href="#about">
+                    <p>About</p>
+            </a>
+      <a class="navbar-item" href="#contact">
+          <p>Contact Me</p>
+        </a>
       </div>
+    </div>
+
+
+      <a role="button" class="navbar-burger is-hidden-desktop" aria-label="menu" aria-expanded="false" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-hidden')">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container">
-      <img class="img-fluid mb-5 d-block mx-auto" id="grad" src="img/P1050013.jpg" alt="">
-      <!-- <h1 class="text-uppercase mb-0">Julian Hamilton</h1> -->
-      <hr class="star-light">
-      <h2 class="font-weight-light mb-0">Full-Stack Developer</h2>
-      <p></p>
-      <div class="lead">
-        <p>Strengths:
-          <br>JavaScript | Node.js | Python 
-          <br>SQL | HTML | CSS | Visual Basic</p>
-      </div>
-    </div>
-  </header>
-
-  <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-      <hr class="star-dark mb-5">
-      <div class="row">
-          <div class="col-md-6 col-lg-4">
-              <a class="portfolio-item d-block mx-auto" href="#lilypad">
-                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                  <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                    <i class="fa fa-search-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img class="img-fluid" src="img/lilyfront.png" alt="lilypad">
-              </a>
-            </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/wmn.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/burnrate.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/bitbuzz.png" alt="">
-          </a>
-        </div>
-        <!-- <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/tt.png" alt="">
-          </a>
-        </div> -->
-
-
-
-      </div>
-    </div>
-
-  </section>
-
-  <!-- About Section -->
-  <section class="bg-primary text-white mb-0" id="about">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-white">About</h2>
-      <hr class="star-light mb-5">
-      <div class="row">
-        <p class="col-2"></p>
-        <div class="col-8 ">
-          <p class="lead">I am originally from New York,
-            <br>where I graduated from SUNY Purchase in 2016 with a BA in Economics.</p>
-          <p class="lead">I relocated to Oakland, CA in early 2017 to fill an administrative position at Monterey Tilth: a large-scale cannabis cultivation company based in Salinas, CA.</p>
-          <p class="lead">I became fully immersed in development when my role at Monterey Tilth shifted to managing their data
-            and developing a variety of user applications for employees.</p>
-          <p class="lead">I attended the UC Berkeley Extention Full-Stack Web Development program from February to August 2018 to widen my understanding
-            of development.</p>
-          <p class="lead">I maintain my role at Monterey Tilth, overseeing internal software development, data analysis, employee technology training, hardware purchases and more.</p>
-        </div>
-        <p class="col-2"></p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">Oakland, CA</p>
-        </div>
-        <div class="col-md-6 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Contact Me</h4>
-          <ul class="list-inline mb-0">
-            <!-- <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/julianphamilton" target="_blank">
-                <i class="fa fa-fw fa-facebook"></i>
-              </a>
-            </li> -->
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/julian-hamilton-webdev/" target="_blank">
-                <i class="fa fa-fw fa-linkedin"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a id="mail" type="mail" href="mailto:jham2282@gmail.com" class="btn btn-outline-light btn-social rounded-circle" id="sendMessageButton">
-                <p id="e">Email</p>
-              </a>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <div class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small>Copyright &copy; Julian Hamilton 2018</small>
-    </div>
+<div class="container is-fluid">
+        <div class="tile box is-12 headings has-text-centered">
+            <p class="has-text-centered">Projects</p>
+        </div> 
+<!-- <div class="tile is-ancestor" style="height: auto; padding-top: 0px"> -->
+<div class="tile is-parent is-vertical box is-12" id="lilypad" style="margin: 5px">
+        <a href="https://powerful-ravine-59187.herokuapp.com/results?city=Berkeley&state=CA" target="_blank">
+    <h4 class="is-child has-text-centered">Lilypad Rentals</h4>
+    <img class="img-fluid" src="assets/img/lilyres.png" alt="lilypad">
+</a>
+<p class="tile is-child box content">Lilypad rentals is an app designed to match people with homes. The goal of this app was to simplify and expedite the rental search process for prospective renters, and to provide a simple and effective holistic platform for property owners and managers.
+<br>My team and I built this app using the MERN (MongoDB, Express, React.js, Node.js) stack.</p>
   </div>
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
-
-  <!-- Portfolio Modals -->
-
-
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Gif Generator</h2>
-            <hr class="star-dark mb-5">
-            <a href="https://jham100.github.io/ajaxhw/">
-              <img class="img-fluid mb-5" src="img/gif2.png" alt="">
-            </a>
-            <p class="mb-5 text-left">This is a web application that I made to generate buttons from user input using Javascript for loops and Jquery
-              DOM manipulation and AJAX calls. The user generated buttons can then be used to perform an AJAX call to the
-              GIPHY API, resulting in related GIFs loading into the DOM.</p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">BitBuzz</h2>
-            <hr class="star-dark mb-5">
-            <a href="https://bitbuz.github.io/BitBuz/" target="_blank">
-              <img class="img-fluid mb-5" src="img/bitbuzz.png" alt="">
-            </a>
-            <p class="mb-5">Bitbuzz is a web application featuring news and interactive bitcoin price charts. My small team and I used HTML,
-              CSS, Bootstrap, JavaScript, JQuery, Firebase and the Google News API in the development of this site.</p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 4 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Train Time</h2>
-            <hr class="star-dark mb-5">
-            <a href="https://jham100.github.io/TT/">
-              <img class="img-fluid mb-5" src="img/tt.png" alt="">
-            </a>
-            <p class="mb-5">TrainTime is a basic example of a train scheduling app using HTML, CSS, Javascript, and JQuery for the front-end
-              and firebase for the back-end.</p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 6 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Burnrate</h2>
-            <hr class="star-dark mb-5">
+<div class="tile is-parent is-vertical box is-12" id="womxn" style="margin: 5px">
+        <a href="https://sophie-kim.github.io/VC2Final/" target="_blank">
+  <h4 class="is-child has-text-centered">Womxn Festival</h4>
+  <img class="img-fluid" src="assets/img/wmn.png" alt="">
+  </a>
+  <p class="tile is-child box content">Womxn festival is a hypothetical music / culture festival created by myself and Sophie Kim. I used HTML, CSS,
+       jQuery and Bootstrap in the development of this project.</p>
+</div>
+<div class="tile"></div>        
+<!-- </div> -->
+<!-- <div class="tile is-ancestor" style="height: auto; padding-top: 25px"> -->
+    <div class="tile is-parent is-vertical box is-12"id="burnrate" style="margin: 5px">
             <a href="https://guarded-tor-26890.herokuapp.com/" target="_blank">
-              <img class="img-fluid mb-5" src="img/burnrate.png" alt="">
-            </a>
-            <p class="mb-5">Burnrate is a budget projection app that I worked on with a small group of collaborators.
-              <br>We used Materialize, D3.js, jQuery, Node, Handlebars and MySQL among other tools  in the development of this app.
-            </p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Portfolio Modal 5 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Womxn Fest</h2>
-            <hr class="star-dark mb-5">
-            <a href="https://sophie-kim.github.io/VC2Final/" target="_blank">
-              <img class="img-fluid mb-5" src="img/wmn.png" alt="">
-            </a>
-            <p class="mb-5">Womxn festival is a hypothetical music / culture festival created by myself and Sophie Kim. I used HTML, CSS,
-              and Bootstrap to create the web page.</p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Lilypad Modal -->
-  <div class="portfolio-modal mfp-hide" id="lilypad">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
+        <h4 class="is-child has-text-centered">Burnrate</h4>
+        <img class="img-fluid" src="assets/img/burnrate.png" alt="">
         </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Lilypad Rentals</h2>
-              <hr class="star-dark mb-5">
-              <a href="https://powerful-ravine-59187.herokuapp.com/results?city=Berkeley&state=CA" target="_blank">
-                <img class="img-fluid mb-5" src="img/lilyres.png" alt="">
-              </a>
-              <p class="mb-5">Lilypad rentals is an app designed to match people with homes. The goal of this app was to simplify and expedite the rental search process for prospective renters, and to provide a simple and effective holistic platform for property owners and managers.</p>
-              <p>My team and I built this app using the MERN (MongoDB, Express, React.js, Node.js) stack.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
+        <p class="tile is-child box content">Burnrate is a budget projection app that I worked on with a small group of collaborators.
+                <br>We used Materialize, D3.js, jQuery, Node, Handlebars and MySQL among other tools in the development of this app.
+              </p>
           </div>
+  <div class="tile is-parent is-vertical box is-12" id="bitbuzz"style="margin: 5px">
+        <a href="https://bitbuz.github.io/BitBuz/" target="_blank">
+      <h4 class="is-child has-text-centered">BitBuzz</h4>
+      <img class="img-fluid" src="assets/img/bitbuzz.png" alt="">
+      </a>
+      <p class="tile is-child box content">Bitbuzz is a web application featuring news and interactive bitcoin price charts. My small team and I used HTML,
+            CSS, Bootstrap, JavaScript, JQuery, Firebase and the Google News API in the development of this site.</p>
         </div>
-      </div>
-    </div>
+    <div class="tile"></div>        
+  <!-- </div> -->
+  <div class="tile box is-12 headings has-text-centered">
+        <p class="has-text-centered" id="about">About</p>
+    </div> 
+    <div class="tile is-parent is-12 box">
+    <div class="tile is-child is-5" style="margin: 5px">
+          <img class="img-fluid portrait text-align-centered" src="assets/img/P1050013.jpg" alt="">
 
+            </div>
+    <div class="tile is-child is-7" id="info">
+<p class="content">
+        <h4 class="has-text-centered">Full-Stack Developer</h4>
+        <p></p>
+        <p class="has-text-centered">Strengths:</p>
+        <br>
+                <p>Javascript (Front-end, Node.js, and React.js), Python (Including Django), SQL (MSSQL, MySQL), HTML, CSS, Visual Basic, MongoDB, RESTful APIs, .NET Framework and more!
+</p>
+<br>
+            <p class="content">I am originally from New York, where I graduated from SUNY Purchase in 2016 with a BA in Economics.
+                    <br>
+                  <br>I relocated to Oakland, CA in early 2017 to fill an administrative position at Monterey Tilth: a large-scale cannabis cultivation company based in Salinas, CA.
+                  <br>
+                  <br>I became fully immersed in development when my role at Monterey Tilth shifted to creating and managing their data -- and eventually developing an internal application for mission-critical business operations and analytics.
+                    <br>
+                    <br>I attended the UC Berkeley Extention Full-Stack Web Development program from February to August 2018 to widen my understanding
+                    of development.
+                    <br>
+                    <br>I maintain my role at Monterey Tilth, overseeing internal software development, data analysis, employee technology training, hardware purchases and more.</p>
+            </div>
+        </div>
+</div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+      <footer class="footer" id="contact">
+            <div class="content has-text-centered">
+                    <div class="columns">
+                            <div class="column">
+                              <h4>Location</h4>
+                              <p class="lead mb-0">Oakland, CA</p>
+                            </div>
+                            <div class="column">
+                                <h4>Contact</h4>
+                                <a href="mailto:jham2282@gmail.com">
+                                    <i class="fas fa-edit"></i>
+                                    Email Me 
+                                </a>
+                                <div class="linkedin">
+                                <a href="https://www.linkedin.com/in/julian-hamilton-webdev/">
+                                <i class="fab fa-linkedin"></i>
+                                LinkedIn
+                            </a>
+                        </div>
+                        <div class="github">
+                                <a href="https://www.github.com/jham100">
+                                    <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                            </div>
+            </div>
+          </footer>
 
 </body>
 
