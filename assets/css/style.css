@@ -10,15 +10,15 @@
 .heady  {
     font-size: 30px;
     font-weight: 700;
-    font-family: 'FuturaStd-Bold';
+    font-family: 'FuturaStd-Bold',sans-serif;
 }
 .head  {
     font-size: 30px;
     font-weight: 700;
-    font-family: 'FuturaStd-Bold';
+    font-family: 'FuturaStd-Bold',sans-serif;
 }
 body   {
-    font-family: 'FuturaStd-Medium';
+    font-family: 'FuturaStd-Medium',sans-serif;
 }
 h4  {
     padding: 5px;
