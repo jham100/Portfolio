@@ -1,5 +1,4 @@
 .tile   {
-    margin: 5px;
     background-color: white;
     /* background-color: black;
     color: white */
@@ -13,6 +12,10 @@
     font-family: 'FuturaStd-Bold',sans-serif;
     color: black
 }
+.content {
+    color: white;
+    background-color: black;
+}
 .head  {
     font-size: 30px;
     font-weight: 700;
@@ -21,6 +24,12 @@
 }
 body   {
     font-family: 'FuturaStd-Medium',sans-serif;
+}
+.abt {
+    color: black;
+}
+.contain {
+    width: 100vw;
 }
 h4  {
     padding: 5px;
@@ -90,9 +99,14 @@ h4  {
        outline: 1px;
        font-size: 30px;
        border-radius: 10px;
-       width: 25vw;
+       width: 27.5vw;
+       margin-bottom: 5vh;
        font-family: 'FuturaStd-Medium',sans-serif;
    }
+   ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
    .button:hover {
        color: black;
        background-color: white;
@@ -103,6 +117,7 @@ h4  {
    }
    body {
        background-color: black;
+       width: 100vw;
    }
    html {
        background-color: black;
