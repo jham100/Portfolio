@@ -124,14 +124,14 @@ h4  {
        width: 100vw;
        overflow: auto;
    }
-   .develop {
+   #develop {
     color: #A8C3FF;
-    font-size: 35px;
+    font-size: 25px;
     display: inline-block;
    }
    .yourbusiness {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     display: inline-block;
    }
   /* .two { 
