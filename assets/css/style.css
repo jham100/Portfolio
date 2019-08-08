@@ -108,19 +108,38 @@ h4  {
        outline: 1px;
        font-size: 30px;
        border-radius: 10px;
-       width: 27.5vw;
+       width: 25vw;
        margin-bottom: 5vh;
        font-family: 'FuturaStd-Medium',sans-serif;
    }
-   @media only screen and (max-width:600px) {
+   @media only screen and (max-width:700px) {
     .button {
-        width: 75vw;
+        width: 55vw;
     }
    }
    ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
+    @media only screen and (max-width:450px) {
+        .one {
+            max-height: 150px;
+        }
+        .eight {
+            padding-top: 5vh;
+        }
+        .nine {
+            padding-top: 0vh;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .button {
+            width: 40vw;
+        }
+        .one {
+            height: 25vh;
+        }
+    }
    .button:hover {
        color: black;
        background-color: white;
