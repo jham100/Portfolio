@@ -131,12 +131,16 @@ h4  {
         .nine {
             padding-top: 0vh;
         }
+        .one {
+            width: 100%;
+        }
     }
 
     @media only screen and (min-width: 770px) {
 
         .one {
-            height: 50vh;
+            height: 65vh;
+            width: 35vw;
         }
     }
    .button:hover {
