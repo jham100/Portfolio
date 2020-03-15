@@ -124,9 +124,7 @@ h4  {
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
     @media only screen and (max-width:450px) {
-        .one {
-            max-height: 150px;
-        }
+
         .eight {
             padding-top: 5vh;
         }
@@ -134,14 +132,7 @@ h4  {
             padding-top: 0vh;
         }
     }
-    @media only screen and (max-width: 769px) {
-        /* .button {
-            width: 40vw;
-        } */
-        .one {
-            height: 25vh;
-        }
-    }
+
     @media only screen and (min-width: 770px) {
 
         .one {
