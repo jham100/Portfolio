@@ -24,11 +24,8 @@
 }
 body   {
     font-family: 'FuturaStd-Medium',sans-serif;
-    background-color: black;
 }
-#page-top {
-    background-color: white !important;
-}
+
 .abt {
     color: black;
 }
@@ -174,6 +171,9 @@ h4  {
    }
    .h4 {
        color: #4a4a4a;
+   }
+   .tile .is-child {
+       margin-left: 10px !important;
    }
   /* .two { 
     grid-column: 2 / 4;
