@@ -114,7 +114,7 @@ h4  {
        margin-bottom: 5vh;
        font-family: 'FuturaStd-Medium',sans-serif;
    }
-   @media only screen and (max-width:700px) {
+   @media only screen and (max-width:769px) {
     .button {
         width: 55vw;
     }
@@ -134,12 +134,18 @@ h4  {
             padding-top: 0vh;
         }
     }
-    @media only screen and (max-width: 800px) {
-        .button {
+    @media only screen and (max-width: 769px) {
+        /* .button {
             width: 40vw;
-        }
+        } */
         .one {
             height: 25vh;
+        }
+    }
+    @media only screen and (min-width: 770px) {
+
+        .one {
+            height: 50vh;
         }
     }
    .button:hover {
