@@ -24,6 +24,10 @@
 }
 body   {
     font-family: 'FuturaStd-Medium',sans-serif;
+    background-color: black;
+}
+#page-top {
+    background-color: white !important;
 }
 .abt {
     color: black;
