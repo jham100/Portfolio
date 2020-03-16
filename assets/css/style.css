@@ -33,13 +33,14 @@ body   {
     width: 100vw;
 }
 h4  {
-    padding: 5px;
     font-size: 25px;
     padding: 10px;
+    color: #4a4a4a;
 }
 .navbar-burger  {
     display: inline;
     position: static;
+    color: #4a4a4a !important;
 }
 .headings   {
     background-color: black;
@@ -171,12 +172,11 @@ h4  {
     display: inline-block;
    }
    .h4 {
-       color: #4a4a4a;
+       color: #4a4a4a !important;
    }
    .about-info {
        margin-left: 20px !important;
    }
-   
   /* .two { 
     grid-column: 2 / 4;
     grid-row: 1 / 3;
