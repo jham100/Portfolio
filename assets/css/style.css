@@ -52,12 +52,12 @@ h4  {
     width: 100%;
 }
 #info   {
-    margin-left: 10px;
+    margin-left: 20px !important;
     flex: auto;
 }
 .portrait   {
-    max-height: 600px;
-    padding-left: 25px;
+
+    border-radius: 6px;
 }
 
 
@@ -114,6 +114,10 @@ h4  {
        width: 25vw;
        margin-bottom: 5vh;
        font-family: 'FuturaStd-Medium',sans-serif;
+   }
+   .box {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
    }
    @media only screen and (max-width:769px) {
     .button {
