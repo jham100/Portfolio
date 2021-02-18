@@ -230,3 +230,6 @@ h4  {
 .maintile {
     margin-right: 0 !important;
 }
+.tile.col {
+    padding-right: 0;
+}
