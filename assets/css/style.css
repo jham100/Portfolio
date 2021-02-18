@@ -65,7 +65,7 @@ h4  {
     grid-gap: 0px;
   }
   .one {
-    height: 40vh;
+    height: 50vh;
     grid-column: 2;
     grid-row: 2;
   }
@@ -197,8 +197,11 @@ h4  {
         height: 65vh;
         width: 35vw;
     }
+    .image {
+        min-width: 300px;
+    }
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 771px) {
     #info   {
         margin-left: 0px !important;
         padding-top: 20px;
@@ -210,6 +213,11 @@ h4  {
 @media only screen and (max-width: 550px) {
     .columns{
         display: block;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .one, .two, .three, .four, .five, .six, .eight {
+        display: none;
     }
 }
 /* linkedin */
@@ -224,6 +232,12 @@ h4  {
         margin-top: -20px;
     }
 }
+@media only screen and (max-width: 900px) {
+    .image{
+        max-width: 320px;
+    }
+}
+
 .footer {
     padding: 3rem 1.5rem 3rem;
 }
