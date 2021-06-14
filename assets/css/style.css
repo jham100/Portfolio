@@ -115,8 +115,16 @@ h4  {
    .tile.is-ancestor:last-child {
     margin-bottom: 40px;
     }
-   .tile {
+   /* .tile {
        flex-grow: 0;
+   } */
+
+   .project {
+       margin: 0.35rem !important;
+   }
+   .outer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
    }
    @media only screen and (max-width:769px) {
     .button {
