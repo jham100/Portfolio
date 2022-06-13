@@ -1,52 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131330132-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'UA-131330132-1');
-        </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Julian Hamilton | Software Development Portfolio">
-    <meta name="author" content="Julian Hamilton">
-    <meta property="og:image" content="favicon.png" />
-    <meta property="og:title" content="JH | Developer" />
-    <meta property="og:description" content="Julian Hamilton | Software Development Portfolio" />
-    <title>Julian Hamilton</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body style="background-color:black">
-    <div class="container is-fluid">
-        <div class="wrapper">
-                <div class="one">
-                    <img class="image" src="favicon.png" alt="Julian Hamilton">
-                </div>
-                <div class="two"></div>
-                <div class="three"></div>
-                <div class="four"></div>
-                <div class="five"></div>
-                <div class="six"></div>
-                <div class="seven">
-                    <a href="./main.html#portfolio"><button class="button is-hidden-mobile">Portfolio</button></a>
-                </div>
-                <div class="nine">
-                        <a href="./main.html#portfolio"><button class="button mob is-hidden-tablet">Portfolio</button></a>
-                        <a href="./main.html#about"><button class="button mob">About</button></a>
-                        <a href="./main.html#contact"><button class="button mob is-hidden-tablet">Contact</button></a>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131330132-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-131330132-1');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Julian Hamilton | Software Development Portfolio">
+  <meta name="author" content="Julian Hamilton">
+  <meta property="og:image" content="favicon.png" />
+  <meta property="og:title" content="JH | Developer" />
+  <meta property="og:description" content="Julian Hamilton | Software Development Portfolio" />
+
+  <title>Julian Hamilton</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar box" role="navigation" aria-label="main navigation">
+        <a class="navbar-item is-hidden-touch" href="/">
+          <image style="max-height: 3.5rem" src="favicon.png" class="head"></image>
+        </a>
+        <a class="navbar-item is-hidden-desktop" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-hidden')">
+                <image style="max-height: 3.5rem" src="favicon.png" class="head"></image>
+        </a>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <h4 class="navbar-item">Julian Hamilton</h4>
+    </div>
+    <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                      Browse Work
+                    </a>
+                    <div class="navbar-dropdown">
+                      <a class="navbar-item" href="#uni">
+                        Current Role - Top University
+                      </a>
+                      <a class="navbar-item" href="#cpedash">
+                          Medical Expert Dashboard
+                      </a>
+                      <a class="navbar-item" href="#rosemary">
+                        Rosemary Gratch Memorial
+                      </a>
+                      <a class="navbar-item" href="#womxn">
+                        Womxn Festival
+                      </a>
+                    </div>
                 </div>
-                <div class="ten">
-                        <a href="./main.html#contact"><button class="button is-hidden-mobile">Contact</button></a>
-                </div>
-              </div>
+            <a class="navbar-item" href="#about">
+                <p>About</p>
+            </a>
+      <a class="navbar-item" href="#contact">
+          <p>Contact Me</p>
+        </a>
+      </div>
+    </div>
+      <a role="button" class="navbar-burger is-hidden-desktop" aria-label="menu" aria-expanded="false" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-hidden')">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  </nav>
+
+  <div class="container is-fluid">
+    <div class="wrapper">
+            <div class="one">
+                <img class="image portrait-clipped" src="assets/img/P1050013.jpg" alt="Portrait">
             </div>
-            <script src="assets/javascript/script.js"></script>
+            <div class="two">
+                <h2 class="intro">Hi, I'm Julian.</h1>
+                <h3 class="quickinfo">I am a Full-Stack software developer based in Oakland, CA.</h3>
+                <!-- <a class="button">See my work</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="tile box is-12 headings has-text-centered">
+            <p class="has-text-centered">Work</p>
+        </div> 
+        <div class="container workcontainer">
+          <!--  -->
+            <div class="tile is-parent outer">
+                <!--  -->
+                <div class="tile is-parent is-vertical box project" id="uni" style="margin-top: 5px;">
+                    <h4 class="is-child has-text-centered">Current Role - Top University</h4>
+                    <div class="unicontainer"><i class="fas fa-university fa-10x"></i></div>
+                  </a>
+                  <div style="text-align: center;"><em>September 2019 - Present</em></div>
+                  <p class="tile is-child boxy content">I am currently a Software Developer at a top University, where
+                     I work with a team of Software Developers, Project Managers, QA Testers and GIS specialists 
+                     to build and support applications that facilitate the management and use of the University's 
+                     physical assets.
+                </div>
+              <!--  -->
+              <!--  -->
+              <div class="tile is-parent is-vertical box project" id="cpedash" style="margin-top: 5px">
+                <a href="#">
+                  <h4 class="is-child has-text-centered">Medical Expert Dashboard</h4>
+                  <img class="img-fluid" src="assets/img/cpedash3.png" alt="CPE Dashboard">
+                </a>
+                <div style="text-align: center;"><em>Not publicly accessible<br>All data shown is test data</em></div>
+                <p class="tile is-child boxy content">Crosspoint Evaluations requested a dashboard interface for medical experts that they work with to view past and upcoming appointments, patient records and other pertinent information.
+                <br>I developed this application using HTML, Javascript (Vanilla, jQuery), CSS (Custom, Bulma), Google Sheets API, Google Apps Script and other G Suite technologies.</p>
+                <em style="text-align: center;"></em>
+              </div>
+            <!--  -->
+          </div>
+          <!--  -->
+          <div class="tile is-parent outer">
+              <!--  -->
+              <div class="tile is-parent is-vertical box project" id="rosemary" style="margin-top: 5px">
+                <a href="https://rosemarygratch.org/" target="_blank">
+                  <h4 class="is-child has-text-centered">Rosemary Gratch Memorial</h4>
+                  <img class="img-fluid" src="assets/img/rosemary.png" alt="Rosemary Gratch Memorial">
+                </a>
+                <p class="tile is-child boxy content">This web application is a living memorial to my late grandmother, Rosemary Gratch. Users of the application can view curated images and videos of Rosemary and her loved ones. Users can leave comments, share direct links to their favorite items, and add captions depending on their access level. I used HTML, CSS, JS / jQuery, Google Firebase (Hosting, Firestore, Authentication), and Node.js (via Google Cloud Functions) in the development of this project.</p>
+              </div>
+              <!--  -->
+              <!--  -->
+            <div class="tile is-parent is-vertical box project" id="womxn" style="margin-top: 5px">
+              <a href="https://sophie-kim.github.io/VC2Final/" target="_blank">
+                <h4 class="is-child has-text-centered">Womxn Festival</h4>
+                <img class="img-fluid" src="assets/img/wmn.png" alt="">
+              </a>
+              <p class="tile is-child boxy content">
+                Womxn festival is a fictional music / culture festival created by myself and <a href="https://sophiaalexakim.myportfolio.com/">Sophia Kim</a>. I used HTML, CSS, 
+                jQuery, JS and Bootstrap in the development of this project.
+              </p>
+            </div>
+                <!--  -->       
+            </div>
+      
+        </div>
+  <div class="tile box is-12 headings has-text-centered">
+        <p class="has-text-centered" id="about">About</p>
+    </div> 
+  <div class="container aboutcontainer">
+    <div class="box">
+    <h4 class="has-text-centered abt">Strengths</h4>
+    <hr>
+    <div class="tile is-parent is-12">
+        <br>
+        <div class="columns" style="width: 100%;">
+          <div class="column">
+            <ul class="mainlist">
+              <li>Javascript 
+                <ul class="sublist">
+                  <li>Front-end</li>
+                  <li>Node.js</li>
+                  <li>React.js</li>
+                  <li>React Native</li>
+                </ul>
+              </li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div class="column">
+          <ul class="mainlist">
+          <li>Python
+            <ul class="sublist">
+              <li>Jupyter</li>
+              <li>NumPy</li>
+              <li>Django</li>
+            </ul>
+          </li>
+          <li>Subversion</li>
+          <li>Drupal</li>
+        </ul>
+        </div>
+          <div class="column">
+            <ul class="mainlist">
+              <li>SQL 
+                <ul class="sublist">
+                  <li>MSSQL</li>
+                  <li>MySQL</li>
+                  <li>Oracle SQL</li>
+                </ul>
+              </li>
+              <li>MongoDB</li>
+              <li>RESTful APIs</li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul class="mainlist">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>UX/UI Design</li>
+              <li>Adobe ColdFusion</li>
+              <li>.NET Framework</li>
+              <li>Visual Basic</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+    <div class="tile is-parent box is-12" style="padding: 20px; padding-bottom: 40px;">
+    <div class="tile is-child is-4 iconcontainer">
+        <img class="image" src="favicon.png" alt="Julian Hamilton">
+            </div>
+    <div class="tile is-child is-8 about-info" id="info">
+<br>
+<h4 class="has-text-centered abt">My Story</h4>
+<hr>
+<br>
+<p>I am originally from the New York City metropolitan area, where I graduated from SUNY Purchase in 2016 with a BA in Economics.
+    <br>
+    <br>I relocated to Oakland, CA in early 2017 to fill an administrative position at Monterey Tilth: a large-scale cannabis cultivation company based in Salinas, CA.
+    <br>
+    <br>I became immersed in software development at Monterey Tilth, where my role included data management and analysis from the start and grew into a technical role over time. At Monterey Tilth, I lead the development of an internal application for mission-critical business operations.
+    <br>
+    <br>I attended the UC Berkeley Extention Full-Stack Web Development program from February to August of 2018 to widen my understanding
+    of web development.
+    <br>
+    <br>In September of 2019, I began a contract role as a Software Developer at a top University. In this role, I work with a team of Software Developers, Project Managers, QA Specialists and GIS specialists to build and support applications that facilitate the management and use of the University's physical assets.<br>
+    <br>In March of 2020, I became a full-time employee of the University.
+</p>
+            </div>
+        </div>
+</div>
+
+      <footer class="footer" id="contact">
+            <div class="has-text-centered">
+                    <div class="columns">
+                            <div class="column">
+                              <h4>Location</h4>
+                              <p class="lead mb-0">Oakland, CA</p>
+                            </div>
+                            <div class="column">
+                            </div>
+                            <div class="column">
+                                <h4>Contact</h4>
+                                <a href="mailto:julianmhamilton@gmail.com">
+                                    <i class="fas fa-edit"></i>
+                                    Email
+                                </a>
+                                <div class="linkedin">
+                                <a target="_blank" href="https://www.linkedin.com/in/jh-dev/">
+                                <i class="fab fa-linkedin"></i>
+                                LinkedIn
+                                </a>
+                            </div>  
+                        <div class="github">
+                            <a target="_blank" href="https://www.github.com/jham100">
+                                <i class="fab fa-github"></i>
+                                Github
+                            </a>
+                        </div>
+                    </div>
+            </div>
+            <div class="copyright">Julian Hamilton</div>
+          </footer>
 </body>
 </html>
